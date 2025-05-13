@@ -11,6 +11,9 @@ body {
   color: #fff;
   line-height: 1.6;
 }
+h2.h2{
+  margin-bottom: 510px;
+}
 button a {
   color: black;
   text-decoration: solid;
