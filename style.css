@@ -89,6 +89,9 @@ i:hover {
 
 .image img {
   width: 450px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0,255,150,0.2);
 }
@@ -96,8 +99,6 @@ i {
   color: rgb(179, 255, 0);
   font-size: 24px; 
 }
-
-
 
 h2 {
   font-size: 2em;
@@ -119,6 +120,17 @@ section.project{
   gap: 20px;
   align-items: center;
 }
+ .glass-card {
+    padding: 2rem;
+    border-radius: 16px;
+    width: 160vh;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    }
 
 .project img {
   width: 350px;
@@ -126,7 +138,8 @@ section.project{
 }
 
 .project-info {
-  max-width: 600px;
+  max-width: 770px;
+  margin-left: 50px;
 }
 
 .project-info h3 {
@@ -148,8 +161,6 @@ section.project{
 .links a:hover {
   text-decoration: underline;
 }
-
-
 .view-project-button {
   display: inline-block;
   padding: 10px 20px;
@@ -366,6 +377,13 @@ footer {
 .sublime { background-color: #4d4d4d; }
 .jquery { background-color: #0769ad; }
 .bootstrap { background-color: #563d7c; }
+
+h2.h2{
+  margin-bottom: -48px;
+}
+.pr{
+  margin-top: 95px;
+}
 @keyframes slideUpFadeIn {
   0% {
       opacity: 0;
@@ -376,10 +394,3 @@ footer {
       transform: translateY(0); 
   }
 }
-@media screen and (max-width: 425px) {
- body{
-  margin: 0;
-  padding: 0;
- }
-  }
-
