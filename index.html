@@ -2,172 +2,152 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Yadhav Sreekanth | Portfolio</title>
-  <link rel="icon" href="image/favicon.png" type="Favicon">
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yadhav Sreekanth - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="image/favicon.png" type="image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/v5-font-face.min.css">
 </head>
 <body>
+  <section id="nav">
+  <header class="header">
+    <div class="container">
+      <div class="logo" data-short="Yadhav">Yadhav Sreekanth</div>
+      <ul class="nav-links">
+        <li><a href="#nav">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#steyp">Steyp</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#fianl-thoughts">Thoughts</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <img src="image/nav.png" id="navToggleImg" alt="Toggle Nav" />
+  </header>
 
-  <section class="home">
+  <section id="home" class="home" style="margin-top:50px;">
     <div class="content">
-      <h1>HI, I AM <br/><span>YADHAV SREEKANTH.</span></h1>
-      <p>Hi,I’m a high school student with a passion in IT field. I have no
-        background in coding, and Steyp is my first experience learning it.</p>
+      <h1>Hello, I'm <span>Yadhav Sreekanth</span></h1>
+      <p >Hey I’m Yadhav I’m a high school student passionate about web development.I began my journey with no coding
+         background,and my first real experience was through STEYP. 
+        I now enjoy front-end development and love building clean, interactive websites.</p>
       <div class="buttons">
-        <button >
-          <a href="mailto:yadhavvsreelakam@gmail.com" target="_blank">CONTACT ME</a>
-
-        </button>
-        <a href="https://github.com/yadhav-sreekanth" target="_blank">
-          <i class="fab fa-github fa-lg"></i>
-        </a>
-        
-        <a href="https://www.linkedin.com/in/yadhav-sreekanth-b4522635a/" target="_blank">
-          <i class="fab fa-linkedin fa-lg"></i>
-        </a>
+        <a href="#contact" class="btn" style="font-weight: 400;">Contact Me</a>
+        <a href="https://github.com/Yadhav-Sreekanth" class="icon-btn" target="_blank"><i class="fab fa-github" style="margin-top: 1px; height: 10px;"></i></a>
       </div>
     </div>
-    <div class="image" data-aos="fade-left">
-      <img src="image/1000008662.webp" alt="YADHAV SREEKANTH" />
+    <div class="image-container">
+      <img src="image/1000008662.webp" alt="Profile Image" class="profile-img" />
     </div>
   </section>
-<section id="project" class="project">
-  <h2 class="h2">FEATURED PROJECTS</h2>
- 
-    <div class="project" >
-      <img src="image/portfolio.png" alt="portfolio">
-      <div class="project-info">
-        <h3>Portfolio Website</h3>
-        <p>This personal website showcases my growth, skills, and enthusiasm for web development. Built fully with HTML, JavaScript and CSS!</p>
-        <div class="links">
-          <a href="https://yadhav-sreekanth.github.io/portfolio" target="_blank" class="view-project-button">VIEW PROJECT</a>
-      </div>
-    </div>
-    <br/>   
-<br/>
-<br/><br/>
-<br/><br/>
-<br/><br/>
-<br/><br/>
-<br/>
-<br/>   
-
+</section>
+  <section id="projects" class="about">
+    <h2>Featured Projects</h2>
     <div class="project">
-      <img src="image/cal.png" taget="_blank">
-      <div class="project-info">
-        <h3>Calculator</h3>
-        <p>A simple web calculator made with HTML, CSS, and JavaScript. Learned a lot about JavaScript functions here.</p>
-        <div class="links">
-          <a href="https://yadhav-sreekanth.github.io/calculator/" taget="_blank" class="view-project-button">VIEW PROJECT</a>
-        </div>
-      </div>
-      </div>
+      <h3>Portfolio Website</h3>
+      <p>This personal website showcases my growth, skills, and enthusiasm for web development. Built fully with HTML, JavaScript and CSS!</p>
+      <img src="image/portfolio.png" alt="Portfolio Screenshot" class="project-img" />
+      <br/>
+      <a href="https://portfolio-yadhav-sreekanths-projects.vercel.app/" target="_blank">Click to see my Portfolio</a>
+    </div>
+    <div class="project">
+      <h3>Calculator Website</h3> 
+      <p>A simple web calculator made with HTML, CSS, and JavaScript. Learned a lot about JavaScript functions here.</p>
+      <img src="image/cal.png" alt="Calculator Screenshot" class="project-img" />
+      <br/>
+
+      <a href="https://yadhav-sreekanth.github.io/calculator/" target="_blank">Click to see my Mini calculator</a>
+    </div>
+
+  </section>
+
+  <section id="steyp" class="about" style="margin-top:-90px; margin-bottom:-50px;">
+    <h2>My Steyp Journey</h2>
+<p>
+  <strong>STEYP</strong> is a digital university platform designed for students to learn and engage in technology, fostering future engineers and scientists.
+</p>
+<p>
+  Steyp offers a structured and engaging learning experience covering a wide range of technologies—from web development to advanced software engineering concepts. Through hands-on practice, real-world projects, and interactive lessons, Steyp helps learners build a strong foundation in coding while staying up-to-date with the latest tech industry trends.
+</p>
+<p>
+  Whether you're starting your journey in programming or looking to sharpen your skills, Steyp provides the tools, support, and guidance needed to succeed in the world of technology.
+</p>
+<p>
+  I joined the Tech Schooling Program through my school. It offered high-quality lessons and recorded classes that made learning smooth and effective.
+</p>
+<p>
+  STEYP played a major role in helping me learn coding and programming languages. I know this experience will be key in shaping my future.
+</p>
+<p>
+  <a href="https://steyp.com/" target="_blank">Click here to learn more about Steyp</a>
+</p>
+
+  </section>
+
+  <section id="skills" class="about">
+    <h2>My Skills</h2>
+    <div class="skills-icons">
+      <div class="skill"><i class="fab fa-html5"></i><span>HTML</span></div>
+      <div class="skill"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+      <div class="skill"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+      <div class="skill"><i class="fas fa-code"></i><span>jQuery</span></div>
+      <div class="skill"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+      <div class="skill"><i class="fab fa-sass"></i><span>SASS</span></div>
+      <div class="skill"><i class="fab fa-react"></i><span>React</span></div>
+      <div class="skill"><i class="fas fa-code"></i><span>VS Code</span></div>
+      <div class="skill"><i class="fas fa-file-code"></i><span>Sublime Text</span></div>
+
 
     </div>
-</section>
-<br/>
-<br/>
-
-<section id="Experience" class="steyp">
-  <h2>MY EXPERIENCE WITH STEYP</h2>
-  <br/>
-  <div class="glass-card">
-  <div class="text" >
-    <p>Steyp offers a structured and engaging learning experience that covers a wide range of technologies,
-       from web development <br/>to advanced  software engineering concepts. Through hands-on practice,
-        real-world projects, and interactive lessons,<br/> Steyp helps learners build a  strong foundation in 
-        coding while also keeping up with the latest trends in the tech industry.<br/> Whether you're starting
-         your journey  in programming or looking to sharpen your skills, Steyp provides the
-         guidance <br/>needed to succeed in the world of technology.
-<br/>
-<br/>
-
-      I joined the Tech Schooling Program through my school.
-       It offered high-quality lessons and recorded classes.
-<br/>
-<br/>
-      
-      
-      STEYP helped a lot in learning coding,
-       and I knew that this would definitely play a key role in shaping my future. </p>
-
-       <a class="steyp" href="https://steyp.com/feed/">Click here to see more about STEYP</a>
-       </div>
-  </div>
-</section>
-<BR/>
-<BR/>
-
-
-<section id="challenges" class="problems-section">
-  <div class="content-wrapper">
-    <h3 class="section-heading">CHALLENGES I OVERCAME</h3>
-    <ul class="problems-list">
-      <li>Understanding position absolute and relative was challenging.</li>
-      <li>JavaScript logic was little bit hard but I overcame it with help from the STEYP support team.</li>
-      <li>Building the Wibbitz website was harder.</li>
-    </ul>
-  </div>
-</section>
-
-<section class="t">
-  <div class="skills-container">
-    <div class="skills-header">
-        <h2>Skills and Technologies</h2>
-        <p>Here are the technologies and tools I have experience with:</p>
-    </div>
-    <div class="skills-grid">
-        <div class="skill-item html"><i class="fab fa-html5"></i>HTML</div>
-        <div class="skill-item css"><i class="fab fa-css3-alt"></i>CSS</div>
-        <div class="skill-item js"><i class="fab fa-js"></i>JavaScript</div>
-        <div class="skill-item vscode"><i class="fas fa-code"></i>VS Code</div>
-        <div class="skill-item sublime"><i class="fas fa-file-code"></i>Sublime Text</div>
-        <div class="skill-item jquery"><i class="fas fa-code"></i>jQuery</div>
-        <div class="skill-item bootstrap"><i class="fab fa-bootstrap"></i>Bootstrap</div>
-    </div>
-</div>
-</section>
-
-
-
-<section class="goals">
+  </section>
+<section id="final-thoughts" class="about final-thoughts">
   <h2>Final Thoughts</h2>
+  <p><strong>Goals:</strong> My ultimate goal is to become a skilled full-stack developer, capable of building powerful, modern web applications from front to back.</p>
+  <p><strong>Call to Action:</strong> I’m always open to learning and collaboration. If you're interested in creating exciting projects together, feel free to connect with me!</p>
+</section>
 
-<p class="wish"><strong>Goals:</strong> My wish is to become a full-stack developer.</p>
-<p class="wish"><strong>Call to Action:</strong> I am interested for creating exciting projects.</p>
-</section>
-<section class="contact-section">
-  <div class="w">
-  <h2>Contact Me</h2>
-  <p>If you'd like to connect, feel free to reach out through any of the platforms below.</p>
-</div>
-<div class="contact-links">
-  <a href="https://instagram.com/yadhav_sreekanth_" target="_blank" class="contact-link instagram">
-    <i class="fab fa-instagram"></i>
-    <span>Instagram</span>
-    </a>
-<a href="https://github.com/yadhav-sreekanth" target="_blank" class="contact-link github">
-<i class="fab fa-github"></i>
-<span>GitHub</span>
-</a>
-<a href="mailto:yadhavvsreelakam@gmail.com" target="_blank" class="contact-link email">
-<i class="fas fa-envelope"></i>
-<span>Email</span>
-</a>
-<a href="https://www.linkedin.com/in/yadhav-sreekanth-b4522635a/" target="_blank" class="contact-link linkedin">
-  <i class="fab fa-linkedin"></i>
-  <span>LinkedIn</span>
-  </a>
-</section>
-</div>
-<footer>
-<p>  © 2025 Yadhav Sreekanth </p>
-</footer>
-</body>
-</html>
-<p>  © 2025 Yadhav Sreekanth </p>
-</footer>
+    <section class="contact-section">
+             
+        <h2>Contact Me</h2>
+         <div class="glassest">
+        <p>If you'd like to connect, feel free to reach out through any of these platforms.</p>
+      </div>
+   <div class="contact-links">
+      <a href="https://github.com/yadhav-sreekanth" target="_blank" class="contact-link github">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+      </a>
+      <a href="https://instagram.com/yadhav_sreekanth_" target="_blank" class="contact-link instagram">
+      <i class="fab fa-instagram"></i>
+      <span>Instagram</span>
+      </a>
+      <a href="mailto:yadhavvsreelakam@gmail.com" target="_blank" class="contact-link email">
+      <i class="fas fa-envelope"></i>
+      <span>Email</span>
+      </a>
+      <a href="https://www.linkedin.com/in/yadhav-sreekanth-b4522635a/" target="_blank" class="contact-link linkedin">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+        </a>
+      </section>
+    </div>
+    <br/>
+  <footer class="footer">
+    <p>&copy; 2025 Yadhav Sreekanth. All rights reserved.</p>
+  </footer>
+  <script>
+  const navToggleImg = document.getElementById('navToggleImg');
+  navToggleImg.addEventListener('click', () => {
+    document.body.classList.toggle('show-nav');
+  });
+  window.addEventListener('resize', () => {
+    if(window.innerWidth > 1237 && document.body.classList.contains('show-nav')) {
+      document.body.classList.remove('show-nav');
+    }
+  });
+</script>
 </body>
 </html>
