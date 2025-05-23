@@ -305,14 +305,6 @@ a{
     flex-direction: column;
   }
 
-  .project-img {
-    width: 100%;
-  }
-
-  .profile-img {
-    width: 180px;
-    height: 180px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -365,15 +357,17 @@ a{
     display: flex;
     background: #000;
   }
+  .logo {
+    display: none;
+
+  }
 }
 
 @media (max-width: 424PX) {
    #navToggleImg{
     height: 44px  ;
    }
-  .logo::after {
-    content: attr(data-short);
-  }
+
   .logo {
     color: transparent; 
     position: relative;
@@ -396,8 +390,8 @@ a{
    width: 100%; 
    max-width: 3000px; 
   }
-
 }
+
 
 @media (max-width: 480px) {
   .home h1 {
@@ -447,4 +441,22 @@ a{
   align-items: center;     
   min-height: 200px;    
 }
+@media (max-width: 1024px) {
+  .header {
+    padding-bottom: 0.5rem;
+  }
+  .home {
+    margin-top: 0; 
+    padding-top: 1rem;
+  }
+}
 
+@media (max-width: 1022px) {
+
+.content{
+ margin-top: -60px;
+}
+body{
+  margin-top: -60px;
+}
+}
