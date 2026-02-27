@@ -1,219 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="icon" href="image/favicon.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yadhav Sreekanth | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="image/favicon.png" type="image">
+  <title>Yadhav Sreekanth | UI Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/v5-font-face.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body>
-      <img src="https://img.icons8.com/ios-filled/50/00e0ff/menu--v1.png" 
-         alt="menu" 
-         id="navToggleImg">
 
+<body>
+  <!-- Hamburger (mobile) -->
+  <img src="https://img.icons8.com/ios-filled/50/00e0ff/menu--v1.png" alt="menu" id="navToggleImg" style="margin-top: -16px; color: black !important;">
+
+  <!-- Navigation -->
   <section id="nav">
-  <header class="header">
-    <div class="container">
-      <div class="logo" data-short="Yadhav">Yadhav Sreekanth</div>
-      <ul class="nav-links">
-        <li><a href="#nav">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#steyp">Steyp</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#final-thoughts">Thoughts</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <header class="header">
+      <div class="container">
+        <div class="logo" data-short="Yadhav">Yadhav Sreekanth</div>
+        <ul class="nav-links">
+          <li><a href="#nav">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#steyp">Steyp</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#trust">Contact</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+  </section>
+
+  <!-- Hero section (exactly template style) -->
+<section class="hero">
+  <div class="hero-left">
+    <h4>Hi, I am</h4>
+    <h1>Yadhav Sreekanth</h1>
+    <p class="role">UI Developer with Backend Knowledge</p>
+    <p class="intro">
+      I'm a passionate web developer focused on building clean,
+      modern and responsive websites using HTML, CSS, JavaScript and Supabase.
+    </p>
+    <div class="hero-buttons">
+      <a href="projects.html" class="btn-main">View Projects</a>
+      <a href="https://github.com/Yadhav-Sreekanth" target="_blank" class="btn-outline"><i
+          class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/yadhav-sreekanth-b4522635a/" target="_blank" class="btn-outline"><i
+          class="fab fa-linkedin"></i></a>
     </div>
-  </header>
+  </div>
+
+  <div class="hero-right">
+    <img src="image/profile.png" alt="Yadhav Sreekanth" class="profile-image">
+  </div>
 </section>
 
-<section id="home" class="home" style="margin-top: 180px;">
+
+
+  <!-- STEYP journey -->
+
+  <section id="steyp" class="steyp-section">
+    <div class="steyp-container">
+      <h2 class="section-title">My <img src="image/Untitled design.png" class="imgsteyp" width="129px" style="margin-top: -13px;" height="48px"/> Journey</h2>
   
-        <div class="image-container">
-      <img src="image/Profile.webp" alt="Profile Image" class="profile-img" style="margin-bottom: 80px;" />
-    </div>
-    <div class="content">
-      <h1 >&nbsp; &nbsp;<span>Hello</span>, I'm <span>Yadhav Sreekanth</span></h1>
-      <p >Hey I’m Yadhav I’m a high school student passionate about web development.I began my journey with no coding
-         background,and my first real experience was through STEYP. 
-        I now enjoy front-end development and love building clean, interactive websites.</p>
-      <div class="buttons">
-        <a href="#contact" class="btn" style="font-weight: 400;">Contact Me</a>
-        <a href="https://github.com/Yadhav-Sreekanth" class="icon-btn" target="_blank"><i class="fab fa-github" style="margin-top: 1px; height: 10px;"></i></a>
+      <div class="steyp-content">
+        <div class="steyp-card">
+          <div class="steyp-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="steyp-text">
+<p><strong>Steyp</strong> is a digital university platform where students learn technology and programming. It is 
+  the platform where I began my coding journey.</p>          </div>
+        </div>
+  
+        <div class="steyp-card">
+          <div class="steyp-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="steyp-text">
+            <p>Steyp offers a structured and engaging learning experience covering a wide range of technologies—from web
+              development to advanced software engineering concepts. Through hands-on practice, real-world projects, and
+              interactive lessons, Steyp helps learners build a strong foundation in coding while staying up-to-date with
+              the latest tech industry trends.</p>
+          </div>
+        </div>
+  
+        <div class="steyp-card">
+          <div class="steyp-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <div class="steyp-text">
+            <p>Whether you're starting your journey in programming or looking to sharpen your skills, Steyp provides the
+              tools, support, and guidance needed to succeed in the world of technology.</p>
+          </div>
+        </div>
+  
+        <div class="steyp-card">
+          <div class="steyp-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="steyp-text">
+            <p>I joined the Tech Schooling Program through my school. It offered high-quality lessons and recorded classes
+              that made learning smooth and effective.</p>
+          </div>
+        </div>
+  
+        <div class="steyp-card highlight-card">
+          <div class="steyp-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="steyp-text">
+            <p><strong>STEYP played a major role in helping me learn coding and programming languages. I know this
+                experience will be key in shaping my future.</strong></p>
+          </div>
+        </div>
+  
+        <div class="steyp-cta">
+          <a href="https://steyp.com/" target="_blank" class="steyp-button">
+            <span>Discover STEYP</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
     </div>
-
   </section>
-</section>
-<br/>
-<br/>
-<br/>
-  <section id="projects" class="about">
-    <h2 style="margin-bottom: 30px;">Featured Projects</h2>
-    <div class="project">
-      <h3>MathauraX</h3>
-      <p>MathauraX is an innovative educational platform designed to transform the way students learn mathematics. Our mission is to make complex mathematical concepts accessible, engaging, and enjoyable for learners of all levels.</p>
-<div class="iframe-container">
-  <iframe src="https://yadhav-sreekanth.github.io/MathauraX"     scrolling="no" frameborder="0"></iframe>
-</div>
-      
-      <a href="https://yadhav-sreekanth.github.io/MathauraX" target="_blank">View demo</a>
-    </div>
-    
-    <div class="project"> 
-      <h3>Calculator Website</h3> 
-      <p>A simple web calculator made with<br/> HTML,  CSS, and JavaScript. Learned a lot about JavaScript functions here.</p>
-      <img src="image/cal.png" alt="Calculator Screenshot" class="project-img" />
-      <br/>
-
-      <a href="https://yadhav-sreekanth.github.io/calculator/" target="_blank">View demo</a>
-    </div>
-
-  </section>
-  <br/>
-       <br/> 
-
-  <section id="steyp" class="about" style="margin-top:-90px; margin-bottom:-50px;">
-    <h2 >My STEYP Journey</h2>
-<p>
-   <img src="image/Untitled design.png" class="imgsteyp" width="110px" height="35px" style="margin-bottom: -5px; margin-left: 20px;"/> is a digital university platform designed for students to learn and engage in technology, fostering future engineers and scientists.
-</p>
-<p>
-  Steyp offers a structured and engaging learning experience covering a wide range of technologies—from web development to advanced software engineering concepts. Through hands-on practice, real-world projects, and interactive lessons, Steyp helps learners build a strong foundation in coding while staying up-to-date with the latest tech industry trends.
-</p>
-<p>
-  Whether you're starting your journey in programming or looking to sharpen your skills, Steyp provides the tools, support, and guidance needed to succeed in the world of technology.
-</p>
-<p>
-  I joined the Tech Schooling Program through my school. It offered high-quality lessons and recorded classes that made learning smooth and effective.
-</p>
-<p>
-  STEYP played a major role in helping me learn coding and programming languages. I know this experience will be key in shaping my future.
-</p>
-<p>
-  <a href="https://steyp.com/" target="_blank">Click here to learn more about Steyp</a>
-</p>
-
   </section>
 
+<!-- Skills -->
 <section id="skills" class="about">
   <h2>My Skills</h2>
   <div class="skills-icons">
     <div class="skill" data-skill="HTML"><i class="fab fa-html5"></i></div>
     <div class="skill" data-skill="CSS"><i class="fab fa-css3-alt"></i></div>
     <div class="skill" data-skill="JavaScript"><i class="fab fa-js-square"></i></div>
+    <div class="skill" data-skill="React"><i class="fab fa-react"></i></div>
     <div class="skill" data-skill="jQuery"><i class="fas fa-code"></i></div>
+    <div class="skill" data-skill="Node.js"><i class="fab fa-node-js"></i></div>
     <div class="skill" data-skill="Bootstrap"><i class="fab fa-bootstrap"></i></div>
     <div class="skill" data-skill="SASS"><i class="fab fa-sass"></i></div>
-    <div class="skill" data-skill="React"><i class="fab fa-react"></i></div>
+    <div class="skill" data-skill="Git"><i class="fab fa-git-alt"></i></div>
+    <div class="skill" data-skill="GitHub"><i class="fab fa-github"></i></div>
+    <div class="skill" data-skill="Supabase"><i class="fas fa-database"></i></div>
+    <div class="skill" data-skill="PWA"><i class="fas fa-mobile-alt"></i></div>
+    <div class="skill" data-skill="Firebase"><i class="fas fa-fire"></i></div>
     <div class="skill" data-skill="VS Code"><i class="fas fa-code"></i></div>
-    <div class="skill" data-skill="Sublime Text"><i class="fas fa-file-code"></i></div>
+    <div class="skill" data-skill="Sublime"><i class="fas fa-file-code"></i></div>
   </div>
 </section>
 
+<section id="trust" class="trust-section">
+  <div class="trust-container">
+    <h2 class="section-title">Trust & Transparency</h2>
 
+    <div class="trust-content">
+      <!-- Main Message Card -->
+      <div class="trust-card main-message">
+        <div class="quote-icon">
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <p class="trust-statement">
+          I believe in maintaining complete transparency and professionalism with every client.
+        </p>
+      </div>
 
-<section id="final-thoughts" class="about final-thoughts" >
-  <h2 style="display: flex; justify-content: center; align-items: center;">Final Thoughts</h2>
-  <p><strong>Goals:</strong> My ultimate goal is to become a skilled full-stack developer, capable of building powerful, modern web applications from front to back.</p>
-  <p><strong>Call to Action:</strong> I’m always open to learning and collaboration. If you're interested in creating exciting projects together, feel free to connect with me!</p>
+      <!-- Verification Card -->
+      <div class="trust-card verification-card">
+        <div class="card-header">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Verify My Work</h3>
+        </div>
+        <p>You can verify my work and activity through my social profiles.</p>
+
+        <div class="social-verification">
+          <div class="social-item">
+            <div class="social-icon linkedin-bg">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="social-details">
+              <span class="platform">LinkedIn</span>
+              <span class="status">Active · Daily Updates</span>
+            </div>
+          </div>
+
+          <div class="social-item">
+            <div class="social-icon instagram-bg">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="social-details">
+              <span class="platform">Instagram</span>
+              <span class="status">2,000+ Genuine Followers</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="social-note">I regularly share updates and interact with my community on both platforms.</p>
+      </div>
+
+      <!-- Contact Transparency Card -->
+      <div class="trust-card contact-transparency">
+        <div class="card-header">
+          <i class="fas fa-phone-alt"></i>
+          <h3>Direct Contact</h3>
+        </div>
+        <p>For transparency and easy communication, my personal contact number is also provided on this website.</p>
+
+       
+        </div>
+      </div>
+
+      <!-- Goal Card -->
+      <div class="trust-card goal-card">
+        <div class="goal-icon">
+          <i class="fas fa-handshake"></i>
+        </div>
+        <div class="goal-content">
+          <h3>My Commitment</h3>
+          <p>My goal is to build long-term relationships with clients by delivering reliable and quality work.
+            I aim to provide high-quality websites at affordable prices. Also I have another goal to make professional websites accessible to
+            individuals, startups, and small businesses.
+            
+            You may notice that many developers or agencies charge much higher prices for similar services. I keep my pricing
+            reasonable while still focusing on clean design, performance, and reliability ensuring accessible for everyone.
+            
+            Feel free to compare my pricing with other developers or agencies. I believe you will find that my services offer
+            excellent value for the cost.
+          </p>
+        </div>
+      </div>
+
+      <!-- Stats Summary -->
+      <div class="trust-stats">
+        <div class="stat-circle">
+          <div class="stat-number">2.5k+</div>
+          <div class="stat-label">Instagram Followers</div>
+        </div>
+        <div class="stat-circle">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Transparency</div>
+        </div>
+        <div class="stat-circle">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Client Trust</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-    <section class="contact-section" id="contact">
-             
-        <h2>Contact Me</h2>
-         <div class="glassest">
-        <p style="text-align: center;">If you'd like to connect, feel free to reach out through any of these platforms.</p>
+<section id="pricing" class="pricing-section">
+  <div class="pricing-container">
+    <h2 class="section-title">Website Development Pricing</h2>
+    <p class="section-subtitle"></p>
+
+    <!-- Website Packages -->
+    <div class="pricing-grid">
+      <!-- Basic Website -->
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>Basic Website</h3>
+          <p class="package-type">Static Website</p>
+          <div class="price">
+            <span class="currency">₹</span>
+            <span class="amount">4,999</span>
+          </div>
+        </div>
+        <div class="pricing-features">
+          <ul>
+            <li><i class="fas fa-check-circle"></i> 3–5 pages or 3-5 sections</li>
+            <li><i class="fas fa-check-circle"></i> Mobile responsive design</li>
+            <li><i class="fas fa-check-circle"></i> Clean UI</li>
+            <li><i class="fas fa-check-circle"></i> Delivery: 2–5 days</li>
+            <li><i class="fas fa-check-circle"></i> Advance Payment of ₹500 required</li>
+          </ul>
+        </div>
       </div>
-   <div class="contact-links" style="margin-left: 40px;">
-      <a href="https://github.com/yadhav-sreekanth" target="_blank" class="contact-link github">
-      <i class="fab fa-github"></i>
-      <span>GitHub</span>
-      </a>
-      <a href="https://instagram.com/yadhav_sreekanth_" target="_blank" class="contact-link instagram">
-      <i class="fab fa-instagram"></i>
-      <span>Instagram</span>
-      </a>
-      <a href="mailto:yadhavvsreelakam@gmail.com" target="_blank" class="contact-link email">
-      <i class="fas fa-envelope"></i>
-      <span>Email</span>
-      </a>
-      <a href="https://www.linkedin.com/in/yadhav-sreekanth-b4522635a/" target="_blank" class="contact-link linkedin">
-        <i class="fab fa-linkedin"></i>
-        <span>LinkedIn</span>
-        </a>
-      </section>
+
+      <!-- Dynamic Website -->
+      <div class="pricing-card popular">
+        <div class="popular-badge">Most Popular</div>
+        <div class="pricing-header">
+          <h3>Dynamic Website</h3>
+          <p class="package-type">With Database</p>
+          <div class="price">
+            <span class="currency">₹</span>
+            <span class="amount">11,999</span>
+          </div>
+        </div>
+        <div class="pricing-features">
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Contact forms / login system</li>
+            <li><i class="fas fa-check-circle"></i> Data storage with database</li>
+            <li><i class="fas fa-check-circle"></i> 3 sections or 3 pages</li>
+            <li><i class="fas fa-check-circle"></i> Admin or dynamic features</li>
+            <li><i class="fas fa-check-circle"></i> Delivery: 7–10 days</li>
+            <li><i class="fas fa-check-circle"></i> Advance Payment of ₹1500 required</li>
+
+          </ul>
+        </div>
+      </div>
+
+      <!-- Premium Website -->
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>Premium Website</h3>
+          <p class="package-type">Advanced UI & Animations</p>
+          <div class="price">
+            <span class="currency">₹</span>
+            <span class="amount">19,999</span>
+          </div>
+        </div>
+        <div class="pricing-features">
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Modern UI/UX design</li>
+            <li><i class="fas fa-check-circle"></i> Advanced animations</li>
+            <li><i class="fas fa-check-circle"></i> No limits for sections and pages</li>
+            <li><i class="fas fa-check-circle"></i> Interactive elements</li>
+            <li><i class="fas fa-check-circle"></i> Enhanced visual experience</li>
+            <li><i class="fas fa-check-circle"></i> Advance Payment of ₹4500 required</li>
+
+          </ul>
+        </div>
+      </div>
     </div>
-    <br/>
+
+    <!-- Additional Services -->
+    <div class="additional-services">
+      <h3>Additional Services</h3>
+
+      <div class="services-grid">
+        <!-- Domain -->
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="service-content">
+            <h4>Domain Name</h4>
+            <p>Domain cost depends on the extension and provider. Domain will be purchased in the client's name and
+              charged <strong>at actual price</strong>.</p>
+            <div class="service-pricing">
+              <span class="price-tag">.com → ₹800 – ₹1,200 / year</span>
+              <span class="price-tag">.in → ₹500 – ₹800 / year</span>
+              <span class="price-tag">.org / .net → ₹900 – ₹1,200 / year</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hosting -->
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <div class="service-content">
+            <h4>Hosting (Server)</h4>
+            <p>Hosting is required to make the website live on the internet.</p>
+            <div class="service-pricing">
+              <span class="price-tag highlight">₹1,999 per year</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Pages -->
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <div class="service-content">
+            <h4>Additional Pages / Sections</h4>
+            <p>If extra pages or sections are required later (Gallery, Blog, Products, Booking, etc.)</p>
+            <div class="service-pricing">
+              <span class="price-tag">₹1,999 per additional page/section</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Maintenance -->
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <div class="service-content">
+            <h4>Website Maintenance (Optional)</h4>
+            <p>Includes: Bug fixes, Security checks, Small updates, Database monitoring Also Hosting cost will be included under this.</p>
+            <div class="service-pricing">
+              <span class="price-tag">₹2,000 per month</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Contact -->
+  <section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <div class="glassest">
+      <p style="text-align: center;">If you want a website, feel free to reach out through any of these platforms.
+      </p>
+    </div>
+    <div class="contact-links" style="margin-left: 0;">
+      <a href="https://wa.me/919633588111" target="_blank" class="contact-link whatsapp">
+        <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+      </a>
+      <a href="https://github.com/yadhav-sreekanth" target="_blank" class="contact-link github"><i
+          class="fab fa-github"></i><span>GitHub</span></a>
+      <a href="https://instagram.com/yadhav_sreekanth_" target="_blank" class="contact-link instagram"><i
+          class="fab fa-instagram"></i><span>Instagram</span></a>
+      <a href="mailto:yadhavvsreelakam@gmail.com" target="_blank" class="contact-link email"><i
+          class="fas fa-envelope"></i><span>Email</span></a>
+      <a href="https://www.linkedin.com/in/yadhav-sreekanth-b4522635a/" target="_blank" class="contact-link linkedin"><i
+          class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+    </div>
+  </section>
+
   <footer class="footer">
     <p style="font-size: 15px;">&copy; 2025 Yadhav Sreekanth. All rights reserved.</p>
   </footer>
+
   <script>
-const navToggle = document.getElementById("navToggleImg");
-const navLinks = document.querySelector(".nav-links");
+    (function () {
+      // Toggle mobile menu
+      const navToggle = document.getElementById("navToggleImg");
+      const navLinks = document.querySelector(".nav-links");
 
-navToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
+      if (navToggle && navLinks) {
+      navToggle.addEventListener("click", (e) => {
+          e.stopPropagation();
+          navLinks.classList.toggle("active");
 
+          document.body.classList.toggle("no-scroll");
+        });
 
+        // close if click outside (simple)
+        document.addEventListener('click', (e) => {
+          if (!navLinks.contains(e.target) && !navToggle.contains(e.target) && navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+          }
+        });
+      }
 
-  // Toggle menu
-  navToggleImg.addEventListener('click', (e) => {
-    e.stopPropagation(); 
-    document.body.classList.toggle('show-nav');
-  });
+      // responsive logo short/long
+      const logo = document.querySelector('.logo');
+      function updateLogoText() {
+        if (window.innerWidth < 1175 && logo) {
+          logo.textContent = logo.getAttribute('data-short') || 'Yadhav';
+        } else if (logo) {
+          logo.textContent = 'Yadhav Sreekanth';
+        }
+      }
+      updateLogoText();
+      window.addEventListener('resize', updateLogoText);
 
-  document.addEventListener('click', (e) => {
-    if (!header.contains(e.target)) {
-      document.body.classList.remove('show-nav');
-    }
-  });
+      // tiny scroll on load (optional: to match the 2px down in original)
+      window.addEventListener('load', () => {
+        window.scrollTo(0, 20);
+      });
 
+      // (removed the download-on-click for images, not needed for style)
+    })();
+    
+  </script>
+<script>
+  document.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", function (e) {
 
-  window.addEventListener('resize', () => {
-    if (window.innerWidth > 1237 && document.body.classList.contains('show-nav')) {
-      document.body.classList.remove('show-nav');
-    }
-  });
-  
+      const href = this.getAttribute("href");
 
-    const logo = document.querySelector('.logo');
+      if (href && !href.startsWith("#")) {
+        e.preventDefault();
 
-  function updateLogoText() {
-    if (window.innerWidth < 1175) {
-      logo.textContent = logo.getAttribute('data-short');
-    } else {
-      logo.textContent = 'Yadhav Sreekanth';
-    }
-  }
+        document.body.classList.add("slide-left");
 
-  updateLogoText();
+        setTimeout(() => {
+          window.location.href = href;
+        }, 500);
 
-  window.addEventListener('resize', updateLogoText);
-
-
-    document.addEventListener('click', function(e) {
-      if(e.target.tagName === 'IMG') {
-        const imgSrc = e.target.src;
-        const link = document.createElement('a');
-        link.href = imgSrc;
-        const filename = imgSrc.split('/').pop().split('?')[0] || 'downloaded-image.jpg';
-        link.download = filename;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
       }
     });
-window.addEventListener('load', () => {
-  window.scrollTo(0, 20); // scrolls 2px down
-});
-
+  });
 </script>
 </body>
+
 </html>
